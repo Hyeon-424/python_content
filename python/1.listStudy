@@ -1,0 +1,14 @@
+# 나의 소중한 사람이 list 즉, 이 문제 하나만으로 list에 대해서 충분히 숙지가 가능한 문제 내기
+# 단, 주제는 다양한 데이터 값의 주제여야함
+genre = [
+    ['R&B'], ['HipHop'], ['Ballad']
+]
+artist = [
+    ['Zyan', 'Bazzi'], ['Justhis', 'Blackpink'], ['김건모', '이문세']
+]
+music = [
+    ['Let Me'], ['Beautiful'], ['indiGo'], ['뚜두뚜두'], ['아름다운 이별'], ['소녀']
+]
+
+favorite = [genre, artist, music]
+print(favorite[0][0], favorite[1][0], favorite[0][0][0])
